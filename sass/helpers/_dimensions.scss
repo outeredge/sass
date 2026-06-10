@@ -25,11 +25,11 @@
 
     @for $i from 0 through 100 {
         %#{$device}height-#{$i} {
-            height: percentage($i / 100);
+            height: $i * 1%;
         }
 
         %#{$device}width-#{$i} {
-            width: percentage($i / 100);
+            width: $i * 1%;
         }
     }
 
